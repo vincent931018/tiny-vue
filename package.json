@@ -1,0 +1,36 @@
+{
+  "name": "tiny-vue",
+  "version": "1.0.0",
+  "description": "tiny vue",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --mode development --config=build/webpack.config.js --open",
+    "build": "webpack --mode production --config=build/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwc845982120/tiny-vue.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "caowencheng <845982120@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwc845982120/tiny-vue/issues"
+  },
+  "homepage": "https://github.com/cwc845982120/tiny-vue#readme",
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "webpack": "^4.13.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
