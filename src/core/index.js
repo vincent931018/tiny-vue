@@ -5,7 +5,6 @@ import Watcher from '../watch'
 
 export default class TinyVue {
     constructor(options) {
-        this.$option = options;
         this.$element = document.querySelector(options.el);
         this.$init(options);
         this.$data = options.data;
